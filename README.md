@@ -28,10 +28,7 @@ All the signals are found on [Linux Man7 page.](https://www.man7.org/linux/man-p
 Usage: ` sendsig  <signal type> <pid> `
 
 ### Description
-The sendsig command can be utilized to send different signal codes to any assigned PID. You can 
-
-Linux supports the following signals. 
-[ ] This program should be im
+The sendsig command can be utilized to send different signal codes to any assigned PID. Linux supports the [following signals](https://www.man7.org/linux/man-pages/man7/signal.7.html). 
 
 The options are as follows: 
 
