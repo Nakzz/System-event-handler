@@ -1,7 +1,7 @@
 # System-event-handler
 The idea of this application is to catch the "three-finger salute" aka CTRL+ALT+DEL signal and perform some actions- display GUI component to execute to access LDAP (and other functionalities). 
 
-When the CTRL+ALT+DEL is pressed and an non-maskable interupt (NMI) is sent to the CPU, as Windows opens the full-screen UI. If we can catch the NMI signal, we can display an overlay button in the corner with some padding. 
+When the CTRL+ALT+DEL is pressed and a non-maskable interupt (NMI) is sent to the CPU, as Windows opens the full-screen UI. If we can catch the NMI signal, we can display an overlay button in the corner with some padding. 
 
 [x] Implement signal handler that catches Standard signals for Linux system
 [x] Implement mock signal sender for Linux system
