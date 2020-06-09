@@ -11,7 +11,7 @@ When the CTRL+ALT+DEL is pressed and an non-maskable interupt (NMI) is sent to t
 
 ## base-event-handler
 
-Usage: base-event-handler
+Usage: `base-event-handler`
 
 ### Description
 Event handler that creates asynchronous signal handlers to catch specefic signals and print messages to shell.
@@ -25,7 +25,7 @@ All the signals are found on [Linux Man7 page.](https://www.man7.org/linux/man-p
 
 ## sendsig 
 
-Usage: sendsig  <signal type> <pid>
+Usage: ` sendsig  <signal type> <pid> `
 
 ### Description
 The sendsig command can be utilized to send different signal codes to any assigned PID. You can 
